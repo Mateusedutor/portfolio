@@ -15,7 +15,7 @@ body {
   font-size: 14px; 
   
 
-  image-rendering: pixelated; /* para imagens, mas ajuda com texto pixelado */
+  image-rendering: pixelated; 
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
@@ -34,13 +34,13 @@ body {
 
 
 .container {
-  max-width: 900px; /* largura máxima da página */
-  margin: 0 auto;   /* centraliza horizontalmente */
+  max-width: 900px;
+  margin: 0 auto; 
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: left; /* deixa o texto das seções alinhado à esquerda */
+  text-align: left;
 }
  p{color:rgb(0, 0, 0)}
  h1,h2{color:rgb(206, 206, 12)
