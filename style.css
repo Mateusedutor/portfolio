@@ -1,0 +1,48 @@
+.avatar-animado img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center top; 
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+body {
+  background-color: #87CEEB;
+ 
+   font-family: 'Press Start 2P', cursive, sans-serif;
+  font-size: 14px; /* deixa maior pra ver melhor */
+  
+  /* Faz a renderização da fonte ficar pixelada */
+  image-rendering: pixelated; /* para imagens, mas ajuda com texto pixelado */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+  
+  /* Para aumentar o espaçamento e deixar mais legível */
+  letter-spacing: 0,5px;
+  line-height: 1.5;
+
+
+  margin: 0; /* tira a margem padrão do navegador */
+  padding: 0;
+  text-align: center;
+  }
+
+
+
+
+.container {
+  max-width: 900px; /* largura máxima da página */
+  margin: 0 auto;   /* centraliza horizontalmente */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left; /* deixa o texto das seções alinhado à esquerda */
+}
+ p{color:rgb(0, 0, 0)}
+ h1,h2{color:rgb(206, 206, 12)
+
+ }
